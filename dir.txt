@@ -1,0 +1,42 @@
+.:
+total 12
+-rw-rw-r-- 1 john john    0 May  9 21:33 dir.txt
+drwxrwxr-x 5 john john 4096 May  9 20:59 etc
+drwxrwxr-x 2 john john 4096 May  9 20:58 queries
+drwxrwxr-x 2 john john 4096 May  9 21:06 testdata
+
+./etc:
+total 24
+drwxrwxr-x 2 john john 4096 May  9 20:59 catalog
+-rw-rw-r-- 1 john john  172 May  9 20:59 config.properties
+-rw-rw-r-- 1 john john  383 May  9 20:59 jvm.config
+drwxrwxr-x 2 john john 4096 May  9 20:59 kafka
+-rw-rw-r-- 1 john john  110 May  9 20:59 node.properties
+drwxrwxr-x 2 john john 4096 May  9 20:59 redis
+
+./etc/catalog:
+total 8
+-rw-rw-r-- 1 john john 248 May  9 20:59 kafka.properties
+-rw-rw-r-- 1 john john 155 May  9 20:59 redis.properties
+
+./etc/kafka:
+total 20
+-rw-rw-r-- 1 john john  420 May  9 20:59 jpb.book.json
+-rw-rw-r-- 1 john john  721 May  9 20:59 jpb.bookSale.json
+-rw-rw-r-- 1 john john  426 May  9 20:59 jpb.company.json
+-rw-rw-r-- 1 john john   86 May  9 20:59 jpb.person.json
+-rw-rw-r-- 1 john john 1682 May  9 20:59 tpch.customer.json
+
+./etc/redis:
+total 4
+-rw-rw-r-- 1 john john 603 May  9 20:59 test.dept.json
+
+./queries:
+total 8
+-rw-rw-r-- 1 john john 699 May  9 20:58 count.sql
+-rw-rw-r-- 1 john john 319 May  9 20:58 query.sql
+
+./testdata:
+total 8
+-rw-rw-r-- 1 john john  377 May  9 21:06 load_kafka.sh
+-rw-rw-r-- 1 john john 2588 May  9 21:03 test.py
