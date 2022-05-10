@@ -1,0 +1,5 @@
+{
+    "tableName": "person",
+    "schemaName": "jpb",
+    "topicName": "jpb.person"
+}

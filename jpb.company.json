@@ -1,0 +1,20 @@
+{
+    "tableName": "company",
+    "schemaName": "jpb",
+    "topicName": "jpb.company",
+    "message": {
+        "dataFormat": "json",
+        "fields": [
+            {
+                "name": "name",
+                "mapping": "name",
+                "type": "VARCHAR"
+            },
+            {
+                "name": "Id",
+                "mapping": "Id",
+                "type": "BIGINT"
+            }
+        ]
+    }
+}

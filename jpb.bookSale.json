@@ -1,0 +1,30 @@
+{
+    "tableName": "bookSale",
+    "schemaName": "jpb",
+    "topicName": "jpb.bookSale",
+    "message": {
+        "dataFormat": "json",
+        "fields": [
+            {
+                "name": "bookId",
+                "mapping": "bookId",
+                "type": "BIGINT"
+            },
+            {
+                "name": "extCompanyId",
+                "mapping": "extCompanyId",
+                "type": "BIGINT"
+            },
+            {
+                "name": "intCompanyId",
+                "mapping": "intCompanyId",
+                "type": "BIGINT"
+            },
+            {
+                "name": "Id",
+                "mapping": "Id",
+                "type": "BIGINT"
+            }
+        ]
+    }
+}

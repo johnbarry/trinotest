@@ -1,0 +1,20 @@
+{
+    "tableName": "book",
+    "schemaName": "jpb",
+    "topicName": "jpb.book",
+    "message": {
+        "dataFormat": "json",
+        "fields": [
+            {
+                "name": "isbn",
+                "mapping": "isbn",
+                "type": "VARCHAR"
+            },
+            {
+                "name": "Id",
+                "mapping": "Id",
+                "type": "BIGINT"
+            }
+        ]
+    }
+}
